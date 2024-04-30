@@ -341,6 +341,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   color: #000;
   font-weight: bold;
+  font-size: 15px;
 }
 .info li .second-block {
   width: 60%;
