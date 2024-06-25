@@ -339,14 +339,14 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 40%;
   display: inline-block;
   float: left;
-  color: #000;
+  color: white;
   font-weight: bold;
   font-size: 15px;
 }
 .info li .second-block {
   width: 60%;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 .fh5co-social-icons {
@@ -592,6 +592,10 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 16px;
   font-weight: normal;
   color: #bfbfbf;
+}
+
+.timeline-body {
+  color: white;
 }
 
 .timeline-body > p,
@@ -1298,8 +1302,18 @@ input[type="text"] {
 
 .project-desc p {
   color: white;
-  padding-top: 2rem;
+  padding-top: 0.3rem;
   padding-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.heading-text {
+  color: #4C0841;
+}
+
+.top-buffer { margin-top:80px; }
+
+.white {
+  color: white;
+}
