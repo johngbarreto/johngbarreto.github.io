@@ -46,6 +46,15 @@ body {
   content: "";
 }
 
+.customOrange {
+  color: #FF9000;
+}
+
+.customOrangeTitle {
+  padding-left: 20px;
+  color: #FF9000;
+}
+
 a {
   color: #FF9000;
   -webkit-transition: 0.5s;
@@ -339,14 +348,14 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 40%;
   display: inline-block;
   float: left;
-  color: white;
+  color: white !important;
   font-weight: bold;
   font-size: 15px;
 }
 .info li .second-block {
   width: 60%;
   display: inline-block;
-  color: white;
+  color: white !important;
 }
 
 .fh5co-social-icons {
@@ -584,6 +593,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-title {
   margin-top: 0;
+  color: white;
 }
 
 .company {
@@ -718,7 +728,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 270px;
+  height: 365px;
   width: 100%;
   display: table;
   overflow: hidden;
@@ -736,7 +746,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .work .desc {
   display: table-cell;
   vertical-align: middle;
-  height: 270px;
+  height: 350px;
   background: #fff;
   opacity: 0;
   -webkit-transition: 0.3s;
@@ -1316,4 +1326,14 @@ input[type="text"] {
 
 .white {
   color: white;
+}
+
+.customContainer-1 {
+  padding: 10em;
+}
+
+.project-title {
+  color: white;
+  font-weight: bold;
+  font-size: large;
 }
