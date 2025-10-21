@@ -1337,3 +1337,62 @@ input[type="text"] {
   font-weight: bold;
   font-size: large;
 }
+/* Replace duplicate .lang-switch.header white rule and add visible switch styles */
+.lang-switch.header {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  z-index: 1200;
+  background: rgba(0,0,0,0.32);
+  padding: 6px 8px;
+  border-radius: 999px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  backdrop-filter: blur(4px);
+}
+
+/* visual switch track */
+.lang-switch .switch {
+  display: inline-block;
+  width: 48px;
+  height: 28px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.14);
+  position: relative;
+  vertical-align: middle;
+  transition: background .18s ease;
+}
+
+/* knob */
+.lang-switch .switch::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.28);
+  transition: transform .18s ease, box-shadow .18s;
+}
+
+/* checked state */
+.lang-switch .switch-toggle input[type="checkbox"]:checked + .switch {
+  background: #FF9000;
+}
+.lang-switch .switch-toggle input[type="checkbox"]:checked + .switch::before {
+  transform: translateX(20px);
+  box-shadow: 0 6px 18px rgba(255,144,0,0.28);
+}
+
+/* focus */
+.lang-switch .switch-toggle input[type="checkbox"]:focus + .switch {
+  box-shadow: 0 0 0 4px rgba(255,144,0,0.12);
+}
+
+/* responsive tweak */
+@media (max-width:520px) {
+  .lang-switch.header { top:12px; right:12px; padding:4px; }
+  .lang-switch .switch { width:44px; height:24px; }
+  .lang-switch .switch::before { width:18px; height:18px; top:3px; left:3px; }
+}

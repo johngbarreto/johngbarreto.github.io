@@ -2,7 +2,6 @@ $font-primary: 'Space Mono', Arial, serif;
 $font-secondary: 'Kaushan Script', cursive;
 
 
-
 // Overrides
 $grid-gutter-width: 40px !default; 
 $border-radius-base:  4px !default;
@@ -152,7 +151,7 @@ p {
 	margin-bottom: 30px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+h1, h2, h4, h5, h6, figure {
 	color: $brand-black;
 	font-family: $font-primary;
 	font-weight: 400;

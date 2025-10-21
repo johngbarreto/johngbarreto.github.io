@@ -62,6 +62,16 @@
 	<div id="page">	
 	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/swiftBg.png);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
+
+		<div class="lang-switch header" aria-hidden="false">
+		<span class="lang-label">PT</span>
+		<label class="switch-toggle" aria-hidden="false">
+			<input type="checkbox" role="switch" id="lang-toggle" style="display: none;">
+			<span class="switch"></span>
+		</label>
+		<span class="lang-label">EN</span>
+		</div>
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
@@ -69,7 +79,7 @@
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div class="profile-thumb" style="background: url(images/1552326739770.jpeg);"></div>
 							<h1><span class="customOrange">João Gabriel Barreto</span></h1>
-							<h3><span> iOS Developer</span></h3>
+							<h3><span data-i18n="hero.subtitle">iOS Developer</span></h3>
 							<p>
 								<ul class="fh5co-social-icons">
 									<li><a href="https://www.linkedin.com/in/joao-gabriel-barreto/"><i class="icon-linkedin2"></i></a></li>
@@ -86,22 +96,21 @@
 		<div class="customContainer-1">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Sobre Mim</h2>
+					<h2 data-i18n="about.me">Sobre Mim</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
 					<ul class="info">
-						<li><span class="customOrange">Nome Completo:</span><span class="white"> João Gabriel Lavareda Ayres Barreto</span></li>
-						<li><span class="customOrange">Celular:</span><span class="white"> +55 81 99603682</span></li>
+						<li><span data-i18n="full.name" class="customOrange">Nome Completo:</span><span class="white"> João Gabriel Lavareda Ayres Barreto</span></li>
+						<li><span data-i18n="phone.number" class="customOrange">Celular:</span><span class="white"> +55 81 99603682</span></li>
 						<li><span class="customOrange">Email:</span><span class="white"> johngbarielbarreto1337@gmail.com</span></li>
-						<li><span class="customOrange">Localização:</span><span class="white"> Recife, Pernambuco - Brasil</span></li>
+						<li><span data-i18n="location" class="customOrange">Localização:</span><span class="white"> Recife, Pernambuco - Brasil</span></li>
 					</ul>
 				</div>
 				<div class="col-md-6">
 					<h2 class="white">You can never understand everything. But, you should push yourself to understand the system.</h2>
-					<p class="white">Experiência com UIKit, SwiftUI, MVVM, VIPER, Core Data e Firebase — e gosto de 	construir soluções escaláveis que equilibram código limpo e boas práticas.
-					Atualmente, exploro o uso de Combine e Swift Concurrency para elevar a arquitetura e fluidez dos projetos que desenvolvo.</p>
+					<p data-i18n="about.me.paragraph" class="white">Gosto de criar soluções e resolver problemas, por isso estou aqui 😆. Tenho explorado Combine e Swift Concurrency para tornar meus apps mais reativos, sigo sempre aprendendo novas formas de construir produtos melhores dentro do ecossistema Apple</p>
 				</div>
 			</div>
 		</div>
@@ -109,30 +118,25 @@
 
 	<div id="fh5co-resume" class="fh5co-bg-dark">
 		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Experiência</h2>
-				</div>
-			</div>
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline">
 						<li class="timeline-heading text-center animate-box">
-							<div><h3>Experiência</h3></div>
+							<div><h3 data-i18n="exp">Experiência</h3></div>
 						</li>		
 						
 							<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Desenvolvedor iOS Pleno</h3>
-									<span class="company">MV - 2024 - Presente</span>
+									<h3 data-i18n="title.1" class="timeline-title">Desenvolvedor iOS Pleno</h3>
+									<span data-i18n="company.1" class="company">MV - 2024 - Presente</span>
 								</div>
 								<div class="timeline-body">
-									<p>Na MV, sou responsável por praticamente todo o ciclo de desenvolvimento do app de saúde do setor de inovação. Desde novas features até a publicação na App Store.
+									<p data-i18n="timeline.body.desc.1">Na MV, sou responsável por praticamente todo o ciclo de desenvolvimento do app de saúde do setor de inovação. Desde novas features até a publicação na App Store.
 									O projeto usa UIKit (em partes legadas) e SwiftUI (para novas telas e componentes), além de usar Core Data, HealthKit e MapKit.
 									Tenho criado componentes customizados e reutilizáveis para adaptar o app a novas versões do iOS 26.
-									Trabalho em parceria com um desenvolvedor sênior consultor, que revisa o código e apoia em decisões técnicas mais complexas. </p>
+									Trabalho em parceria com um desenvolvedor sênior consultor, que revisa o código e apoia em decisões técnicas mais complexas.</p>
 								</div>
 							</div>
 						</li>
@@ -145,7 +149,7 @@
 									<span class="company">Accenture - 2020 - 2023</span>
 								</div>
 								<div class="timeline-body">
-									<p>Durante meu tempo na empresa trabalhei com diversas tecnologias como React, Angular, Liferay, jQuery, Jenkins. Recebi feedbacks positivos com relação à minha adaptabilidade, fácil entendimento de projetos e como adicionar features de forma eficaz para o usuário. Mesmo sendo minha entrada na área de tecnologia já como pleno, foi muito bom ter a responsabilidade e autonomia para mostrar meu potencial. </p>
+									<p data-i18n="timeline.body.desc.2">Durante meu tempo na empresa trabalhei com diversas tecnologias como React, Angular, Liferay, jQuery, Jenkins. Recebi feedbacks positivos com relação à minha adaptabilidade, fácil entendimento de projetos e como adicionar features de forma eficaz para o usuário. Mesmo sendo minha entrada na área de tecnologia já como pleno, foi muito bom ter a responsabilidade e autonomia para mostrar meu potencial. </p>
 								</div>
 							</div>
 						</li>
@@ -160,7 +164,7 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Linguagens e Frameworks</h3>
+									<h3 data-i18n="lang-frame" class="timeline-title">Linguagens e Frameworks</h3>
 								</div>
 								<div class="timeline-body">
 									<p>Swift, UIKit, SwiftUI, Combine, Concurrency, HealthKit, MapKit, Swift Package Manager (SPM).</p>
@@ -172,10 +176,10 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Arquitetura e Padrões</h3>
+									<h3 data-i18n="arq-patterns" class="timeline-title">Arquitetura e Padrões</h3>
 								</div>
 								<div class="timeline-body">
-									<p>MVVM, VIPER, Coordinator, Repository Pattern, Dependency Injection, Modularização e componentes reutilizáveis</p>
+									<p data-i18n="arq-patterns.desc">MVVM, VIPER, Coordinator, Repository Pattern, Dependency Injection, Modularização e componentes reutilizáveis</p>
 								</div>
 							</div>
 						</li>
@@ -184,7 +188,7 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Networking e Persistência</h3>
+									<h3 data-i18n="net-persistance" class="timeline-title">Networking e Persistência</h3>
 								</div>
 								<div class="timeline-body">
 									<p>Firebase, Rest APIs, GrahpQL, Core Data, URLSession / Codable</p>
@@ -200,7 +204,7 @@
 									<span class="company">Le Wagon - 2019 </span>
 								</div>
 								<div class="timeline-body">
-									<p> Esse curso foi o começo da minha jornada onde aprendi o escopo completo da criação de aplicativos web, do front ao backend. Curso de desenvolvimento full stack utilizando Ruby on Rails.</p>
+									<p data-i18n="bootcamp-desc"> Esse curso foi o começo da minha jornada onde aprendi o escopo completo da criação de aplicativos web, do front ao backend. Curso de desenvolvimento full stack utilizando Ruby on Rails.</p>
 								</div>
 							</div>
 						</li>
@@ -412,7 +416,7 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Projetos</h2>
+					<h2 data-i18n="projects">Projetos</h2>
 					<a href="https://johngbarreto.github.io">Github</a>
 				</div>
 			</div>
@@ -428,14 +432,14 @@
 					</div>
 					<div class="project-desc col-lg-6">
 						<h3 class="customOrangeTitle">AniTimer</h3>
-						<p>Um app desenvolvido com objetivo de aprimorar minhas habilidades em criar 	componentes reutilizaveis e ViewCode.
+						<p data-i18n="app.1.desc">Um app desenvolvido com objetivo de aprimorar minhas habilidades em criar componentes reutilizaveis e ViewCode.
 						<br /> 
 						</p>
-						<p>	
+						<p data-i18n="app.1.desc.2">	
 						A busca e exibição dos animes utilizam a API do MyAnimeList, enquanto o gerenciamento de favoritos é feito com Firebase.
 						<br /> 
 						</p> 
-						<p>
+						<p data-i18n="app.1.desc.3">
 						Views programáticas com MVVM .
 						</p>
 					</div>
@@ -451,7 +455,9 @@
 				</div>
 				<div class="project-desc col-lg-6">
 					<h3 class="customOrangeTitle">Rick & Morty</h3>
-					<p>App desenvolvido utilizando a API do Rick and Morty para explorar novas tecnologias como GraphQL, Combine e Swift Concurrency. </p><br/> <p>O projeto foi uma oportunidade de aplicar conceitos avançados de reatividade e paralelismo, além de criar componentes reutilizáveis em SwiftUI com arquitetura MVVM. </p>
+					<p data-i18n="app.2.desc">App desenvolvido utilizando a API do Rick and Morty para explorar novas tecnologias como GraphQL, Combine e Swift Concurrency.</p>
+					<br/> 
+					<p data-i18n="app.2.desc.2">O projeto foi uma oportunidade de aplicar conceitos avançados de reatividade e paralelismo, além de criar componentes reutilizáveis em SwiftUI com arquitetura MVVM. </p>
 				</div>
 			</div>
 		</div>
@@ -505,7 +511,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<p>&copy; 2024. All Rights Reserved.</p>
+					<p>&copy; 2025. All Rights Reserved.</p>
 				</div>
 			</div>
 		</div>
@@ -530,6 +536,8 @@
 	
 	<!-- Main -->
 	<script src="js/main.js"></script>
+
+	<script src="js/lang-switch.js"></script>
 
 	</body>
 </html>
