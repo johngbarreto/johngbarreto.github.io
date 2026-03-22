@@ -38,11 +38,11 @@
       'projects.github': 'GitHub profile',
       'app.1.stack': 'UIKit, MVVM, Anime Schedule API, Firebase, WidgetKit',
       'app.1.desc':
-        'AniTimer is an iOS app centered on the weekly anime broadcast schedule: a timetable with horizontal day columns (Mon–Sun), filter by day or view the full week with pinch-to-zoom, plus search, rich detail screens (next episodes, genres, status, related), and favorites that feed a home screen widget—100% programmatic UIKit.',
+        'AniTimer is an iOS app built around the weekly release schedule: columns per weekday (Mon–Sun), a full-week view with pinch-to-zoom, details like next episodes, genres, status, related titles, and favorites that power a home screen widget—100% programmatic UIKit.',
       'app.1.desc.2':
-        'The Anime Schedule API (v3) powers the grid and anime metadata, sending the device timezone so week boundaries match the service. Firebase Auth and Firestore store users and favorites; an App Group–backed store syncs favorites into WidgetKit without running Firebase inside the extension. OAuth (PKCE) is wired for AnimeSchedule account flows where the app talks to animelist endpoints.',
-      'app.1.desc.33':
-        'MVVM across tabs, custom image caching, skeleton/loading overlays, centralized error handling, and a Widget extension—end-to-end practice with networking, persistence, shared containers, and WidgetKit in one codebase.',
+        'The Anime Schedule API (v3) provides the grid and metadata, sending the device timezone so dates and times stay relevant. An App Group–backed store syncs data into WidgetKit without running Firebase in the extension. OAuth (PKCE) connects your Anime Schedule account.',
+      'app.1.desc.3':
+        'MVVM across features, image caching, skeletons and loading, centralized error handling, and a widget target—full flow of API, persistence, App Group, and WidgetKit in one project.',
       'app.2.stack': 'SwiftUI, GraphQL, Apollo, Combine',
       'app.2.desc':
         'Explores GraphQL, Combine, and Swift concurrency against the Rick and Morty API.',
@@ -91,9 +91,9 @@
       'projects.github': 'Perfil no GitHub',
       'app.1.stack': 'UIKit, MVVM, API Anime Schedule, Firebase, WidgetKit',
       'app.1.desc':
-        'AniTimer é um app iOS focado na grade semanal de estreias: colunas por dia (seg–dom), visão da semana inteira com pinch-to-zoom, busca, informações como próximos episódios, gêneros, status, relacionados e favoritos que alimentam um widget na tela inicial—UIKit 100% programático.',
+        'AniTimer é um app iOS focado na grade semanal de estreias: colunas por dia (seg–dom), visão da semana inteira com pinch-to-zoom, informações como próximos episódios, gêneros, status, relacionados e favoritos que alimentam um widget na tela inicial—UIKit 100% programático.',
       'app.1.desc.2':
-        'A API Anime Schedule (v3) fornece a grade e os metadados, enviando o fuso do aparelho para alinhar a semana. Firebase Auth e Firestore guardam usuários e favoritos; um armazenamento via App Group sincroniza os dados para o WidgetKit sem rodar Firebase na extensão. OAuth (PKCE) integra a conta AnimeSchedule quando o fluxo usa endpoints de lista.',
+        'A API Anime Schedule (v3) fornece a grade e os metadados, enviando o fuso do aparelho para mostrar data e horário relevante. Um armazenamento via App Group sincroniza os dados para o WidgetKit sem rodar Firebase na extensão. OAuth (PKCE) integra a conta AnimeSchedule.',
       'app.1.desc.3':
         'MVVM nas features, cache de imagens, skeletons e loading, tratamento de erros centralizado e target de widget—fluxo completo de API, persistência, App Group e WidgetKit no mesmo projeto.',
       'app.2.stack': 'SwiftUI, GraphQL, Apollo, Combine',
