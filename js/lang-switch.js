@@ -30,10 +30,12 @@
       'net-persistance': 'Networking & Persistence',
       'net-stack.desc':
         'Firebase, REST APIs, GraphQL, Core Data, URLSession / Codable.',
-      'bootcamp.title': 'Full-Stack Coding Bootcamp',
-      'bootcamp.company': 'Le Wagon — 2019',
+      'bootcamp.title': 'Full-Stack Web Development Bootcamp',
+      'bootcamp.company': 'Le Wagon · 2019',
       'bootcamp-desc':
-        'Where my journey started: full scope of building web apps, front to back. Intensive full-stack program with Ruby on Rails.',
+        'Le Wagon is a globally recognized coding school that runs intensive, project-driven cohorts in many cities; I completed the full-time web development program. It starts with prepwork (Ruby foundations, Git, and toolchain), then moves quickly through object-oriented Ruby, relational databases and SQL, HTML/CSS/JavaScript, and Ruby on Rails—MVC, routing, authentication, and deploying real apps to production.',
+      'bootcamp-desc.2':
+        'The final stretch is a team capstone: we scoped, built, and demoed a full web product from scratch. That blend of product thinking, REST-style APIs, pair work, and code reviews is what made “full stack” tangible—and it set me up to step into larger engineering teams afterward.',
       'projects': 'Projects',
       'projects.github': 'GitHub profile',
       'app.1.stack': 'UIKit, MVVM, Anime Schedule API, Firebase, WidgetKit',
@@ -83,10 +85,12 @@
       'net-persistance': 'Networking e persistência',
       'net-stack.desc':
         'Firebase, REST APIs, GraphQL, Core Data, URLSession / Codable.',
-      'bootcamp.title': 'Bootcamp full stack',
-      'bootcamp.company': 'Le Wagon — 2019',
+      'bootcamp.title': 'Bootcamp de desenvolvimento web full stack',
+      'bootcamp.company': 'Le Wagon · 2019',
       'bootcamp-desc':
-        'Onde minha jornada começou: visão completa de apps web, do front ao back. Imersão full stack com Ruby on Rails.',
+        'A Le Wagon é uma das maiores escolas de programação do mundo, com turmas intensivas e muito hands-on em dezenas de cidades; completei o programa full time de desenvolvimento web. Começa com prepwork online (bases de Ruby, Git e ambiente) e, na imersão, cobre Ruby orientado a objetos, SQL e modelagem relacional, HTML/CSS/JavaScript e Ruby on Rails—MVC, rotas, autenticação e deploy de apps de verdade em produção.',
+      'bootcamp-desc.2':
+        'O fechamento é um projeto final em equipe: a gente define escopo, implementa e apresenta um produto web do zero ao ar. Ali juntou visão de produto, APIs, trabalho em par e revisão de código—o que tornou “full stack” concreto e me deu base sólida antes de entrar no mercado corporativo.',
       'projects': 'Projetos',
       'projects.github': 'Perfil no GitHub',
       'app.1.stack': 'UIKit, MVVM, API Anime Schedule, Firebase, WidgetKit',
@@ -132,7 +136,7 @@
   const toggle = document.getElementById('lang-toggle');
   if (!toggle) return;
 
-  const saved = localStorage.getItem('siteLang') || 'pt';
+  const saved = localStorage.getItem('siteLang') || 'en';
   toggle.checked = saved === 'en';
   applyLang(saved);
 
