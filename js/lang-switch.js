@@ -8,9 +8,9 @@
       'email.label': 'Email:',
       'location': 'Location:',
       'about.lead':
-        'Complex systems fail at the edges—I work to find those edges before users do.',
+        'Complex systems fail at the edges. I work to find those edges before users do.',
       'about.me.paragraph':
-        'I build iOS software for real people: flaky networks, older devices, and the Tuesday when everything goes wrong. That mindset—clarity, testability, and steady refactors—guides how I use SwiftUI, Combine, and concurrency so features stay shippable and maintainable. I keep going deeper into the Apple stack because reliability lives in the details.',
+        'I build iOS software for real people: flaky networks, older devices, and the Tuesday when everything goes wrong. That mindset clarity, testability, and steady refactors guides how I use SwiftUI, Combine, and concurrency so features stay shippable and maintainable. I keep going deeper into the Apple stack because reliability lives in the details.',
       'exp': 'Experience',
       'title.1': 'Mid-level iOS Developer',
       'company.1': 'MV — 2024 – Present',
@@ -33,18 +33,18 @@
       'bootcamp.title': 'Full-Stack Web Development Bootcamp',
       'bootcamp.company': 'Le Wagon · 2019',
       'bootcamp-desc':
-        'Le Wagon is a globally recognized coding school that runs intensive, project-driven cohorts in many cities; I completed the full-time web development program. It starts with prepwork (Ruby foundations, Git, and toolchain), then moves quickly through object-oriented Ruby, relational databases and SQL, HTML/CSS/JavaScript, and Ruby on Rails—MVC, routing, authentication, and deploying real apps to production.',
+        'Le Wagon is a globally recognized coding school that runs intensive, project driven cohorts in many cities; I completed the fulltime web development program. It starts with prepwork (Ruby foundations, Git, and toolchain), then moves quickly through object oriented Ruby, relational databases and SQL, HTML/CSS/JavaScript, and Ruby on Rails—MVC, routing, authentication, and deploying real apps to production.',
       'bootcamp-desc.2':
-        'The final stretch is a team capstone: we scoped, built, and demoed a full web product from scratch. That blend of product thinking, REST-style APIs, pair work, and code reviews is what made “full stack” tangible—and it set me up to step into larger engineering teams afterward.',
+        'The final stretch is a team capstone: we scoped, built, and demoed a full web product from scratch. That blend of product thinking, RESTstyle APIs, pair work, and code reviews is what made “full stack” tangible—and it set me up to step into larger engineering teams afterward.',
       'projects': 'Projects',
       'projects.github': 'GitHub profile',
       'app.1.stack': 'UIKit, MVVM, Anime Schedule API, Firebase, WidgetKit',
       'app.1.desc':
-        'AniTimer is an iOS app built around the weekly release schedule: columns per weekday (Mon–Sun), a full-week view with pinch-to-zoom, details like next episodes, genres, status, related titles, and favorites that power a home screen widget—100% programmatic UIKit.',
+        'AniTimer is an iOS app built around the weekly release schedule: columns per weekday (Mon–Sun), a full week view with pinch-to-zoom, details like next episodes, genres, status, related titles, and favorites that power a home screen widget—100% programmatic UIKit.',
       'app.1.desc.2':
-        'The Anime Schedule API (v3) provides the grid and metadata, sending the device timezone so dates and times stay relevant. An App Group–backed store syncs data into WidgetKit without running Firebase in the extension. OAuth (PKCE) connects your Anime Schedule account.',
+        'The Anime Schedule API (v3) provides the grid and metadata, sending the device timezone so dates and times stay relevant. An App Group backed store syncs data into WidgetKit without running Firebase in the extension. OAuth (PKCE) connects your Anime Schedule account.',
       'app.1.desc.3':
-        'MVVM across features, image caching, skeletons and loading, centralized error handling, and a widget target—full flow of API, persistence, App Group, and WidgetKit in one project.',
+        'MVVM across features, image caching, skeletons and loading, centralized error handling, and a widget target full flow of API, persistence, App Group, and WidgetKit in one project.',
       'app.2.stack': 'SwiftUI, GraphQL, Apollo, Combine',
       'app.2.desc':
         'Explores GraphQL, Combine, and Swift concurrency against the Rick and Morty API.',
@@ -63,9 +63,9 @@
       'email.label': 'E-mail:',
       'location': 'Localização:',
       'about.lead':
-        'Sistemas complexos falham nas bordas—trabalho para encontrar essas bordas antes dos usuários.',
+        'iOS Dev que prioriza arquitetura limpa e experiências consistentes.',
       'about.me.paragraph':
-        'Desenvolvo apps iOS para pessoas reais: rede oscilando, aparelhos antigos e a terça-feira em que tudo resolve falhar ao mesmo tempo. Essa postura—clareza, testabilidade e refactors constantes—orienta como uso SwiftUI, Combine e concorrência para entregar features que continuam sustentáveis. Sigo mergulhando no ecossistema Apple porque confiabilidade mora nos detalhes.',
+        'Desenvolvo apps iOS para pessoas reais: rede oscilando, aparelhos antigos e a sexta em que tudo resolve falhar ao mesmo tempo. Essa clareza, testabilidade e refactors constantes—orienta como uso SwiftUI, Combine e concorrência para entregar features que continuam sustentáveis. Sigo mergulhando no ecossistema Apple porque confiabilidade mora nos detalhes.',
       'exp': 'Experiência',
       'title.1': 'Desenvolvedor iOS Pleno',
       'company.1': 'MV — 2024 – Presente',
