@@ -23,13 +23,13 @@
       'skills.section.title': 'Skills & Background',
       'lang-frame': 'Languages & Frameworks',
       'lang-stack.desc':
-        'Swift, UIKit, SwiftUI, Combine, Concurrency, HealthKit, MapKit, Swift Package Manager (SPM).',
+        'Swift, UIKit, SwiftUI, Combine, Concurrency, HealthKit, MapKit, WidgetKit, OAuth2 (PKCE), Swift Package Manager (SPM).',
       'arq-patterns': 'Architecture & Patterns',
       'arq-patterns.desc':
-        'MVVM, VIPER, Coordinator, Repository pattern, dependency injection, modularization, reusable components.',
+        'MVVM, Coordinator, repository pattern, dependency injection, modularization, reusable components, centralized error handling.',
       'net-persistance': 'Networking & Persistence',
       'net-stack.desc':
-        'Firebase, REST APIs, GraphQL, Core Data, URLSession / Codable.',
+        'REST APIs, GraphQL, URLSession / Codable, Core Data, Keychain, App Group storage, image caching and loading states.',
       'bootcamp.title': 'Full-Stack Web Development Bootcamp',
       'bootcamp.company': 'Le Wagon · 2019',
       'bootcamp-desc':
@@ -38,13 +38,13 @@
         'The final stretch is a team capstone: we scoped, built, and demoed a full web product from scratch. That blend of product thinking, RESTstyle APIs, pair work, and code reviews is what made “full stack” tangible—and it set me up to step into larger engineering teams afterward.',
       'projects': 'Projects',
       'projects.github': 'GitHub profile',
-      'app.1.stack': 'UIKit, MVVM, Anime Schedule API, Firebase, WidgetKit',
+      'app.1.stack': 'UIKit, MVVM, OAuth2 (PKCE), Keychain, App Group + WidgetKit',
       'app.1.desc':
-        'AniTimer is an iOS app built around the weekly release schedule: columns per weekday (Mon–Sun), a full week view with pinch-to-zoom, details like next episodes, genres, status, related titles, and favorites that power a home screen widget—100% programmatic UIKit.',
+        "AniTimer is an iOS app built around AnimeSchedule's weekly airing timetable. The schedule is organized by day (Mon-Sun), supports pinch-to-zoom and air-type filters, and connects naturally with detail and tracking screens. Favorites also feed a Home Screen widget so users can quickly see what airs next. The app is now in the final stretch toward production readiness.",
       'app.1.desc.2':
-        'The Anime Schedule API (v3) provides the grid and metadata, sending the device timezone so dates and times stay relevant. An App Group backed store syncs data into WidgetKit without running Firebase in the extension. OAuth (PKCE) connects your Anime Schedule account.',
+        'The app uses a UIKit-first, MVVM architecture focused on predictable behavior and maintainability. Networking is centralized with a reusable API layer, and login is handled with OAuth2 (PKCE) plus secure session storage in Keychain. Timetable requests always include the user\'s timezone so week boundaries and airing times stay accurate in different regions.',
       'app.1.desc.3':
-        'MVVM across features, image caching, skeletons and loading, centralized error handling, and a widget target full flow of API, persistence, App Group, and WidgetKit in one project.',
+        'For widget reliability, favorites are synchronized through shared App Group storage and preloaded images, so the extension can render quickly without depending on live requests. The project also includes consistent loading states, centralized error handling, and optional local notifications for upcoming episodes.',
       'app.2.stack': 'SwiftUI, GraphQL, Apollo, Combine',
       'app.2.desc':
         'Explores GraphQL, Combine, and Swift concurrency against the Rick and Morty API.',
@@ -78,13 +78,13 @@
       'skills.section.title': 'Skills e formação',
       'lang-frame': 'Linguagens e frameworks',
       'lang-stack.desc':
-        'Swift, UIKit, SwiftUI, Combine, Concurrency, HealthKit, MapKit, Swift Package Manager (SPM).',
+        'Swift, UIKit, SwiftUI, Combine, Concurrency, HealthKit, MapKit, WidgetKit, OAuth2 (PKCE), Swift Package Manager (SPM).',
       'arq-patterns': 'Arquitetura e padrões',
       'arq-patterns.desc':
-        'MVVM, VIPER, Coordinator, repository pattern, injeção de dependência, modularização e componentes reutilizáveis.',
+        'MVVM, Coordinator, repository pattern, injeção de dependência, modularização, componentes reutilizáveis e tratamento centralizado de erros.',
       'net-persistance': 'Networking e persistência',
       'net-stack.desc':
-        'Firebase, REST APIs, GraphQL, Core Data, URLSession / Codable.',
+        'REST APIs, GraphQL, URLSession / Codable, Core Data, Keychain, armazenamento via App Group, cache de imagens e estados de loading.',
       'bootcamp.title': 'Bootcamp de desenvolvimento web full stack',
       'bootcamp.company': 'Le Wagon · 2019',
       'bootcamp-desc':
@@ -93,13 +93,13 @@
         'O fechamento é um projeto final em equipe: a gente define escopo, implementa e apresenta um produto web do zero ao ar. Ali juntou visão de produto, APIs, trabalho em par e revisão de código—o que tornou “full stack” concreto e me deu base sólida antes de entrar no mercado corporativo.',
       'projects': 'Projetos',
       'projects.github': 'Perfil no GitHub',
-      'app.1.stack': 'UIKit, MVVM, API Anime Schedule, Firebase, WidgetKit',
+      'app.1.stack': 'UIKit, MVVM, OAuth2 (PKCE), Keychain, App Group + WidgetKit',
       'app.1.desc':
-        'AniTimer é um app iOS focado na grade semanal de estreias: colunas por dia (seg–dom), visão da semana inteira com pinch-to-zoom, informações como próximos episódios, gêneros, status, relacionados e favoritos que alimentam um widget na tela inicial—UIKit 100% programático.',
+        'AniTimer é um app iOS feito para facilitar o acompanhamento das estreias semanais do AnimeSchedule. A grade é organizada por dia (seg-dom), suporta pinch-to-zoom e filtros por tipo de exibição, e se conecta de forma natural com telas de detalhes e tracking. Os favoritos também alimentam um widget na Home para mostrar rapidamente o que vai ao ar em seguida. O app está na reta final para ficar pronto para produção.',
       'app.1.desc.2':
-        'A API Anime Schedule (v3) fornece a grade e os metadados, enviando o fuso do aparelho para mostrar data e horário relevante. Um armazenamento via App Group sincroniza os dados para o WidgetKit sem rodar Firebase na extensão. OAuth (PKCE) integra a conta AnimeSchedule.',
+        'Em arquitetura, ele é UIKit-first e baseado em MVVM, com foco em previsibilidade e manutenção no longo prazo. A camada de rede é centralizada em uma API reutilizável, e o login usa OAuth2 com PKCE com sessão segura no Keychain. As consultas de timetable sempre incluem o fuso do usuário para manter datas e fronteiras de semana corretas em diferentes regiões.',
       'app.1.desc.3':
-        'MVVM nas features, cache de imagens, skeletons e loading, tratamento de erros centralizado e target de widget—fluxo completo de API, persistência, App Group e WidgetKit no mesmo projeto.',
+        'Para confiabilidade no widget, os favoritos são sincronizados em armazenamento compartilhado por App Group e com imagens pré-carregadas, permitindo que a extensão renderize rápido sem depender de requisições ao vivo. O projeto também inclui estados de loading consistentes, tratamento centralizado de erros e notificações locais opcionais para próximos episódios.',
       'app.2.stack': 'SwiftUI, GraphQL, Apollo, Combine',
       'app.2.desc':
         'Uso da API de Rick and Morty para explorar GraphQL, Combine e Swift Concurrency.',
