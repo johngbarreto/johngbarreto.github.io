@@ -8,9 +8,11 @@
       'email.label': 'Email:',
       'location': 'Location:',
       'about.lead':
-        'Complex systems fail at the edges. I work to find those edges before users do.',
+        'I enjoy coding on my free time (which is rare nowadays)',
       'about.me.paragraph':
-        'I build iOS software for real people: flaky networks, older devices, and the Tuesday when everything goes wrong. That mindset clarity, testability, and steady refactors guides how I use SwiftUI, Combine, and concurrency so features stay shippable and maintainable. I keep going deeper into the Apple stack because reliability lives in the details.',
+        `I started creating apps simply because I enjoyed the aesthetic of it, creating a nice clean screen for other people to use is something that always captivated me. Which is the main reason why I decided to become a mobile developer. Its way more aboout understanding the project and it's usage than anything else, I value a lot in delivering a good experience to the user. \n 
+        
+        Talking a little bit more about me on a personal level I'm someone that is really chill, but very observative I'd say as well, I really enjoy playing some videos games and coding on my free time, also watch animes and ride my bicicyle!`,
       'exp': 'Experience',
       'title.1': 'Mid-level iOS Developer',
       'company.1': 'MV — 2024 – Present',
@@ -63,9 +65,11 @@
       'email.label': 'E-mail:',
       'location': 'Localização:',
       'about.lead':
-        'iOS Dev que prioriza arquitetura limpa e experiências consistentes.',
+        'Gosto de codar no meu tempo livre (o que é raro hoje em dia)',
       'about.me.paragraph':
-        'Desenvolvo apps iOS para pessoas reais: rede oscilando, aparelhos antigos e a sexta em que tudo resolve falhar ao mesmo tempo. Essa clareza, testabilidade e refactors constantes—orienta como uso SwiftUI, Combine e concorrência para entregar features que continuam sustentáveis. Sigo mergulhando no ecossistema Apple porque confiabilidade mora nos detalhes.',
+        `Comecei a criar aplicativos simplesmente porque gostava da estética; criar uma tela bonita e limpa para outras pessoas usarem é algo que sempre me fascinou. Essa é a principal razão pela qual decidi me tornar um desenvolvedor mobile. É muito mais sobre entender o projeto e seu uso do que qualquer outra coisa, valorizo ​​muito proporcionar uma boa experiência ao usuário. \n 
+        
+        Falando um pouco mais sobre mim em um nível pessoal, sou uma pessoa bem tranquila, mas também muito observador. Gosto muito de jogar videogames e codar no meu tempo livre, também de assistir a séries, filmes e andar de bike!`,
       'exp': 'Experiência',
       'title.1': 'Desenvolvedor iOS Pleno',
       'company.1': 'MV — 2024 – Presente',
