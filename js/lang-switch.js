@@ -41,8 +41,9 @@
       'projects': 'Projects',
       'projects.github': 'GitHub profile',
       'app.1.stack': 'UIKit, MVVM, OAuth2 (PKCE), Keychain, App Group + WidgetKit',
-      'app.1.desc':
-        "AniTimer is an iOS app built around AnimeSchedule's weekly airing timetable. The schedule is organized by day (Mon-Sun), supports pinch-to-zoom and air-type filters, and connects naturally with detail and tracking screens. Favorites also feed a Home Screen widget so users can quickly see what airs next. The app is now in the final stretch toward production readiness.",
+       'app.1.desc.0': 'This application is in a private repository since its getting ready for the App Store.',
+      'app.1.desc.1':
+        "It's an iOS app built around AnimeSchedule's weekly airing timetable. The schedule is organized by day (Mon-Sun), supports pinch-to-zoom and air-type filters, and connects naturally with detail and tracking screens. Favorites also feed a Home Screen widget so users can quickly see what airs next. The app is now in the final stretch toward production readiness.",
       'app.1.desc.2':
         'The app uses a UIKit-first, MVVM architecture focused on predictable behavior and maintainability. Networking is centralized with a reusable API layer, and login is handled with OAuth2 (PKCE) plus secure session storage in Keychain. Timetable requests always include the user\'s timezone so week boundaries and airing times stay accurate in different regions.',
       'app.1.desc.3':
@@ -98,8 +99,9 @@
       'projects': 'Projetos',
       'projects.github': 'Perfil no GitHub',
       'app.1.stack': 'UIKit, MVVM, OAuth2 (PKCE), Keychain, App Group + WidgetKit',
-      'app.1.desc':
-        'AniTimer é um app iOS feito para facilitar o acompanhamento das estreias semanais do AnimeSchedule. A grade é organizada por dia (seg-dom), suporta pinch-to-zoom e filtros por tipo de exibição, e se conecta de forma natural com telas de detalhes e tracking. Os favoritos também alimentam um widget na Home para mostrar rapidamente o que vai ao ar em seguida. O app está na reta final para ficar pronto para produção.',
+      'app.1.desc.0': 'Esse aplicativo esta em um repo privado pois estou preparando ele para enviar para a App Store.',
+      'app.1.desc.1':
+        'É um app iOS feito para facilitar o acompanhamento das estreias semanais do AnimeSchedule. A grade é organizada por dia (seg-dom), suporta pinch-to-zoom e filtros por tipo de exibição, e se conecta de forma natural com telas de detalhes e tracking. Os favoritos também alimentam um widget na Home para mostrar rapidamente o que vai ao ar em seguida. O app está na reta final para ficar pronto para produção.',
       'app.1.desc.2':
         'Em arquitetura, ele é UIKit-first e baseado em MVVM, com foco em previsibilidade e manutenção no longo prazo. A camada de rede é centralizada em uma API reutilizável, e o login usa OAuth2 com PKCE com sessão segura no Keychain. As consultas de timetable sempre incluem o fuso do usuário para manter datas e fronteiras de semana corretas em diferentes regiões.',
       'app.1.desc.3':
