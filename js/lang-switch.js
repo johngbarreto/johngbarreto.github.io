@@ -41,13 +41,14 @@
       'projects': 'Projects',
       'projects.github': 'GitHub profile',
       'app.1.stack': 'UIKit, MVVM, OAuth2 (PKCE), Keychain, App Group + WidgetKit',
-       'app.1.desc.0': 'This application is in a private repository since its getting ready for the App Store.',
+      'app.1.desc.0':
+        'This app is temporarily not publicly accessible because I am preparing it for App Store submission.',
       'app.1.desc.1':
-        "It's an iOS app built around AnimeSchedule's weekly airing timetable. The schedule is organized by day (Mon-Sun), supports pinch-to-zoom and air-type filters, and connects naturally with detail and tracking screens. Favorites also feed a Home Screen widget so users can quickly see what airs next. The app is now in the final stretch toward production readiness.",
+        "AniTimer is an iOS app focused on AnimeSchedule's weekly airing timetable. The home experience is organized by day (Mon-Sun), supports week navigation and practical filters, and now keeps a fixed, cleaner zoom behavior for faster browsing. Search and detail flows connect directly with user tracking.",
       'app.1.desc.2':
-        'The app uses a UIKit-first, MVVM architecture focused on predictable behavior and maintainability. Networking is centralized with a reusable API layer, and login is handled with OAuth2 (PKCE) plus secure session storage in Keychain. Timetable requests always include the user\'s timezone so week boundaries and airing times stay accurate in different regions.',
+        'The app uses a UIKit-first MVVM architecture with centralized networking, OAuth2 (PKCE) authentication, and secure Keychain session storage. Timetable requests include the user\'s timezone so week boundaries and airing times stay correct across regions.',
       'app.1.desc.3':
-        'For widget reliability, favorites are synchronized through shared App Group storage and preloaded images, so the extension can render quickly without depending on live requests. The project also includes consistent loading states, centralized error handling, and optional local notifications for upcoming episodes.',
+        'My List favorites also power a Home Screen widget that highlights upcoming episodes. Data is synced through shared App Group storage, with consistent loading/error states and optional local notifications for upcoming air times.',
       'app.2.stack': 'SwiftUI, GraphQL, Apollo, Combine',
       'app.2.desc':
         'Explores GraphQL, Combine, and Swift concurrency against the Rick and Morty API.',
@@ -99,13 +100,14 @@
       'projects': 'Projetos',
       'projects.github': 'Perfil no GitHub',
       'app.1.stack': 'UIKit, MVVM, OAuth2 (PKCE), Keychain, App Group + WidgetKit',
-      'app.1.desc.0': 'Esse aplicativo esta em um repo privado pois estou preparando ele para enviar para a App Store.',
+      'app.1.desc.0':
+        'Este app está temporariamente sem acesso público porque estou preparando a versão para publicação na App Store.',
       'app.1.desc.1':
-        'É um app iOS feito para facilitar o acompanhamento das estreias semanais do AnimeSchedule. A grade é organizada por dia (seg-dom), suporta pinch-to-zoom e filtros por tipo de exibição, e se conecta de forma natural com telas de detalhes e tracking. Os favoritos também alimentam um widget na Home para mostrar rapidamente o que vai ao ar em seguida. O app está na reta final para ficar pronto para produção.',
+        'AniTimer é um app iOS focado na grade semanal de lançamentos do AnimeSchedule. A experiência da Home é organizada por dia (seg-dom), tem navegação por semana e filtros práticos, e agora mantém um zoom fixo mais limpo para navegação mais rápida. Busca e detalhes se conectam direto ao fluxo de acompanhamento.',
       'app.1.desc.2':
-        'Em arquitetura, ele é UIKit-first e baseado em MVVM, com foco em previsibilidade e manutenção no longo prazo. A camada de rede é centralizada em uma API reutilizável, e o login usa OAuth2 com PKCE com sessão segura no Keychain. As consultas de timetable sempre incluem o fuso do usuário para manter datas e fronteiras de semana corretas em diferentes regiões.',
+        'Em arquitetura, ele segue UIKit-first com MVVM, rede centralizada, autenticação OAuth2 (PKCE) e sessão segura no Keychain. As consultas da timetable incluem o fuso do usuário para manter horários e fronteiras de semana corretos em diferentes regiões.',
       'app.1.desc.3':
-        'Para confiabilidade no widget, os favoritos são sincronizados em armazenamento compartilhado por App Group e com imagens pré-carregadas, permitindo que a extensão renderize rápido sem depender de requisições ao vivo. O projeto também inclui estados de loading consistentes, tratamento centralizado de erros e notificações locais opcionais para próximos episódios.',
+        'Os favoritos da My List também alimentam o widget da Home, destacando os próximos episódios. Os dados são sincronizados por App Group compartilhado, com estados consistentes de loading/erro e notificações locais opcionais para próximos horários de exibição.',
       'app.2.stack': 'SwiftUI, GraphQL, Apollo, Combine',
       'app.2.desc':
         'Uso da API de Rick and Morty para explorar GraphQL, Combine e Swift Concurrency.',
