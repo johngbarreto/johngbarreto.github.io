@@ -1,46 +1,61 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" style="color-scheme: dark">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>João Gabriel Barreto — iOS Developer</title>
+	<title>João Gabriel Barreto — iOS Software Engineer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="João Gabriel Barreto — iOS developer (Swift, SwiftUI, UIKit). Whitelabel healthcare apps, Combine and concurrency. Recife, Brazil." />
+	<meta name="description" content="João Gabriel Barreto — iOS Software Engineer (Swift, SwiftUI, UIKit, MVVM-C). Whitelabel healthcare apps, modular architecture, Core Data. Recife, Brazil." />
 	<meta name="keywords" content="iOS developer, Swift, SwiftUI, desenvolvedor iOS, João Gabriel Barreto, Recife, Brasil" />
 	<meta name="author" content="João Gabriel Barreto" />
-	<meta property="og:title" content="João Gabriel Barreto — iOS Developer" />
+	<meta property="og:title" content="João Gabriel Barreto — iOS Software Engineer" />
 	<meta property="og:image" content="https://johngbarreto.github.io/images/1552326739770.jpeg" />
 	<meta property="og:url" content="https://johngbarreto.github.io/" />
 	<meta property="og:site_name" content="João Gabriel Barreto" />
-	<meta property="og:description" content="iOS developer building healthcare and consumer apps with Swift, SwiftUI, and modern Apple frameworks. Recife, Brazil." />
+	<meta property="og:description" content="iOS Software Engineer building modular healthcare and consumer apps with Swift, SwiftUI, and modern Apple frameworks. Recife, Brazil." />
 	<meta property="og:type" content="website" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:locale:alternate" content="pt_BR" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="João Gabriel Barreto — iOS Developer" />
+	<meta name="twitter:title" content="João Gabriel Barreto — iOS Software Engineer" />
 	<meta name="twitter:image" content="https://johngbarreto.github.io/images/1552326739770.jpeg" />
 	<meta name="twitter:url" content="https://johngbarreto.github.io/" />
-	<meta name="twitter:description" content="iOS developer — Swift, SwiftUI, healthcare apps. Recife, Brazil." />
+	<meta name="twitter:description" content="iOS Software Engineer — Swift, SwiftUI, MVVM-C, healthcare apps. Recife, Brazil." />
 
-	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Mono&family=Syne:wght@500;600;700&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
 </head>
 <body>
 
-	<div class="fh5co-loader"></div>
+	<div class="fh5co-loader" aria-hidden="true"></div>
+
+	<nav class="site-nav" aria-label="Section navigation">
+		<div class="site-nav__inner">
+			<a href="#fh5co-about" class="site-nav__link" data-i18n="nav.about">About</a>
+			<a href="#fh5co-resume" class="site-nav__link" data-i18n="nav.experience">Experience</a>
+			<a href="#fh5co-education" class="site-nav__link" data-i18n="nav.education">Education</a>
+			<a href="#fh5co-work" class="site-nav__link" data-i18n="nav.projects">Projects</a>
+			<div class="lang-switch nav-dock" role="group" data-i18n-aria="lang.toggle.aria">
+				<span class="lang-label" id="lang-label-pt-nav">PT</span>
+				<label class="switch-toggle" for="lang-toggle-nav">
+					<input type="checkbox" role="switch" id="lang-toggle-nav" class="lang-toggle-input" aria-labelledby="lang-label-pt-nav lang-label-en-nav" checked>
+					<span class="switch" aria-hidden="true"></span>
+				</label>
+				<span class="lang-label" id="lang-label-en-nav">EN</span>
+			</div>
+		</div>
+	</nav>
 
 	<div id="page">
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/swiftBg.png);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover hero-section" role="banner" style="background-image:url(images/swiftBg.png);">
+		<div class="hero-mesh" aria-hidden="true"></div>
 		<div class="overlay"></div>
 
 		<div class="lang-switch header" role="group" data-i18n-aria="lang.toggle.aria">
@@ -52,211 +67,286 @@
 			<span class="lang-label" id="lang-label-en">EN</span>
 		</div>
 
+		<div class="container hero-container">
+			<div class="hero-content">
+				<div class="profile-thumb profile-glow" data-reveal data-reveal-delay="0">
+					<img src="images/1552326739770.jpeg" alt="João Gabriel Barreto" width="180" height="180" loading="eager">
+				</div>
+				<h1 data-reveal data-reveal-delay="120"><span class="customOrange hero-name">João Gabriel Barreto</span></h1>
+				<h3 data-reveal data-reveal-delay="240"><span data-i18n="hero.subtitle">iOS Software Engineer</span></h3>
+				<ul class="fh5co-social-icons hero-socials" data-reveal data-reveal-delay="360">
+					<li><a href="https://www.linkedin.com/in/joao-gabriel-barreto/" aria-label="LinkedIn"><i class="icon-linkedin2"></i></a></li>
+					<li><a href="https://github.com/johngbarreto" aria-label="GitHub"><i class="icon-github"></i></a></li>
+					<li><a href="mailto:johngabrielbarreto1337@gmail.com" aria-label="E-mail"><i class="icon-envelope"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<a href="#fh5co-about" class="scroll-cue" aria-label="Scroll to About">
+			<span class="scroll-cue__chevron" aria-hidden="true"></span>
+		</a>
+	</header>
+
+	<div class="section-divider" aria-hidden="true"></div>
+
+	<section id="fh5co-about" class="fh5co-bg-dark about-section site-section">
+		<div class="customContainer-1">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 class="section-heading" data-reveal data-i18n="about.me">About Me</h2>
+				</div>
+			</div>
+			<div class="row about-grid">
+				<div class="col-md-6">
+					<div class="info-cards">
+						<div class="info-card" data-reveal data-reveal-delay="0">
+							<span class="info-card__label" data-i18n="full.name">Full Name:</span>
+							<span class="info-card__value">João Gabriel Lavareda Ayres Barreto</span>
+						</div>
+						<div class="info-card" data-reveal data-reveal-delay="80">
+							<span class="info-card__label" data-i18n="phone.number">Phone Number:</span>
+							<span class="info-card__value">+55 81 99603682</span>
+						</div>
+						<div class="info-card" data-reveal data-reveal-delay="160">
+							<span class="info-card__label" data-i18n="email.label">Email:</span>
+							<span class="info-card__value">johngabrielbarreto1337@gmail.com</span>
+						</div>
+						<div class="info-card" data-reveal data-reveal-delay="240">
+							<span class="info-card__label" data-i18n="location">Location:</span>
+							<span class="info-card__value">Recife, Pernambuco — Brazil</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 about-copy">
+					<p data-i18n="about.me.paragraph" class="white about-body" data-reveal data-reveal-delay="120">iOS Software Engineer with 4 years of experience owning high-impact features throughout the development lifecycle. I contribute to modular architectures, reusable UI systems, offline-aware experiences, and performance-focused mobile development within white-label applications used by thousands of users.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="section-divider section-divider--flip" aria-hidden="true"></div>
+
+	<section id="fh5co-resume" class="fh5co-bg-dark site-section resume-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t js-fullheight">
-						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/1552326739770.jpeg);"></div>
-							<h1><span class="customOrange">João Gabriel Barreto</span></h1>
-							<h3><span data-i18n="hero.subtitle">iOS Developer</span></h3>
-							<p>
-								<ul class="fh5co-social-icons">
-									<li><a href="https://www.linkedin.com/in/joao-gabriel-barreto/" aria-label="LinkedIn"><i class="icon-linkedin2"></i></a></li>
-									<li><a href="https://github.com/johngbarreto" aria-label="GitHub"><i class="icon-github"></i></a></li>
-									<li><a href="mailto:johngbarreto1337@gmail.com" aria-label="E-mail"><i class="icon-envelope"></i></a></li>
-								</ul>
-							</p>
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 class="section-heading section-heading--inline" data-reveal data-i18n="exp">Experience</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="timeline-track">
+						<div class="timeline-progress" aria-hidden="true"></div>
+						<ul class="timeline">
+							<li class="timeline-item timeline-inverted" data-reveal data-reveal-direction="left" data-reveal-delay="0">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel reveal-card">
+									<div class="timeline-heading">
+										<h3 data-i18n="title.1" class="timeline-title">iOS Software Engineer</h3>
+										<span data-i18n="company.1" class="company">MV — 2024 – Present</span>
+									</div>
+									<div class="timeline-body">
+										<p data-i18n="timeline.body.desc.1">Led Core Data persistence and synchronization improvements using Crashlytics monitoring, improving app reliability by 20% across multiple white-label hospital releases. Built a modular attendance and exam history feature in SwiftUI, reducing network usage by 30% and increasing offline availability on high-traffic screens.</p>
+										<p data-i18n="timeline.body.desc.1b">Delivered in-app document preview for PDFs and images, implemented silent push background refresh for account updates, and developed tier-aware feature availability aligned with business logic. Built invoice and income tax screens as isolated SPM modules with reusable UI and shared design system patterns. Experience with App Store Connect, certificates, and App Store submissions.</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="timeline-item timeline-unverted" data-reveal data-reveal-direction="right" data-reveal-delay="80">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel reveal-card">
+									<div class="timeline-heading">
+										<h3 data-i18n="title.2" class="timeline-title">Software Engineer</h3>
+										<span data-i18n="company.2" class="company">Accenture — 2020 – 2023</span>
+									</div>
+									<div class="timeline-body">
+										<p data-i18n="timeline.body.desc.2">Contributed to large-scale web and iOS applications for major Brazilian clients including Claro and DTVGO, supporting feature development, maintenance, and UX improvements across fast-paced consulting engagements.</p>
+										<p data-i18n="timeline.body.desc.2b">Supported high-traffic digital platform initiatives during major live events, including streaming-related experiences during the World Cup period. Recognized for strong autonomy, fast onboarding into unfamiliar systems, and consistent delivery in agile, cross-functional teams.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="skills-block">
+
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+								<h2 class="section-heading section-heading--inline" data-reveal data-i18n="skills.section.title">Skills</h2>
+							</div>
+						</div>
+
+
+						<div class="skill-pills" data-reveal>
+							<span class="skill-pill" data-reveal data-reveal-delay="0">Swift</span>
+							<span class="skill-pill" data-reveal data-reveal-delay="40">SwiftUI</span>
+							<span class="skill-pill" data-reveal data-reveal-delay="80">UIKit</span>
+							<span class="skill-pill" data-reveal data-reveal-delay="120">MVVM-C</span>
+							<span class="skill-pill" data-reveal data-reveal-delay="160">VIPER</span>
+							<span class="skill-pill" data-reveal data-reveal-delay="200">Core Data</span>
+							<span class="skill-pill" data-reveal data-reveal-delay="240">GraphQL</span>
+							<span class="skill-pill" data-reveal data-reveal-delay="280">Firebase</span>
+							<span class="skill-pill" data-reveal data-reveal-delay="320">WidgetKit</span>
+							<span class="skill-pill" data-reveal data-reveal-delay="360">SPM</span>
+							<span class="skill-pill" data-reveal data-reveal-delay="400">Fastlane</span>
+							<span class="skill-pill" data-reveal data-reveal-delay="440">Swift Concurrency</span>
+						</div>
+
+						<div class="skills-cards">
+							<article class="skill-card reveal-card" data-reveal data-reveal-delay="0">
+								<h3 data-i18n="lang-frame" class="timeline-title">Languages & Frameworks</h3>
+								<p data-i18n="lang-stack.desc">Swift, Objective-C, SwiftUI, UIKit.</p>
+							</article>
+
+							<article class="skill-card reveal-card" data-reveal data-reveal-delay="80">
+								<h3 data-i18n="arq-patterns" class="timeline-title">Architecture & Patterns</h3>
+								<p data-i18n="arq-patterns.desc">MVVM, MVVM-C, VIPER, Clean Architecture, modular architecture, design systems.</p>
+							</article>
+
+							<article class="skill-card reveal-card" data-reveal data-reveal-delay="0">
+								<h3 data-i18n="net-apis" class="timeline-title">Networking & APIs</h3>
+								<p data-i18n="net-apis.desc">REST APIs, GraphQL, Alamofire.</p>
+							</article>
+
+							<article class="skill-card reveal-card" data-reveal data-reveal-delay="80">
+								<h3 data-i18n="persistence" class="timeline-title">Persistence & Storage</h3>
+								<p data-i18n="persistence.desc">Core Data, SwiftData, Keychain, UserDefaults.</p>
+							</article>
+
+							<article class="skill-card reveal-card" data-reveal data-reveal-delay="0">
+								<h3 data-i18n="concurrency" class="timeline-title">Concurrency & Reactive</h3>
+								<p data-i18n="concurrency.desc">Combine, Swift Concurrency, background tasks.</p>
+							</article>
+
+							<article class="skill-card reveal-card" data-reveal data-reveal-delay="80">
+								<h3 data-i18n="testing" class="timeline-title">Testing & Quality</h3>
+								<p data-i18n="testing.desc">XCTest, unit testing, Firebase Crashlytics.</p>
+							</article>
+
+							<article class="skill-card reveal-card" data-reveal data-reveal-delay="0">
+								<h3 data-i18n="tools" class="timeline-title">Tools & CI/CD</h3>
+								<p data-i18n="tools.desc">Git, SPM, CocoaPods, Fastlane, CI/CD.</p>
+							</article>
+
+							<article class="skill-card reveal-card" data-reveal data-reveal-delay="80">
+								<h3 data-i18n="ai-tools" class="timeline-title">AI-Assisted Development</h3>
+								<p data-i18n="ai-tools.desc">Cursor and Claude Code for debugging workflows, crash analysis, feature planning, and day-to-day productivity.</p>
+							</article>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</header>
+	</section>
 
-	<div id="fh5co-about" class="animate-box fh5co-bg-dark about-section">
-		<div class="customContainer-1">
+	<div class="section-divider" aria-hidden="true"></div>
+
+	<section id="fh5co-education" class="fh5co-bg-dark site-section education-section">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2 data-i18n="about.me">About Me</h2>
+					<h2 class="section-heading" data-reveal data-i18n="education.section.title">Education</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
-					<ul class="info">
-						<li><span data-i18n="full.name" class="customOrange">Full Name:</span><span class="white"> João Gabriel Lavareda Ayres Barreto</span></li>
-						<li><span data-i18n="phone.number" class="customOrange">Phone Number:</span><span class="white"> +55 81 99603682</span></li>
-						<li><span data-i18n="email.label" class="customOrange">Email:</span><span class="white"> johngbarreto1337@gmail.com</span></li>
-						<li><span data-i18n="location" class="customOrange">Location:</span><span class="white"> Recife, Pernambuco — Brazil</span></li>
-					</ul>
-				</div>
-				<div class="col-md-6 about-copy">
-					<p class="about-lead white" data-i18n="about.lead">Complex systems fail at the edges. 	I work to find those edges before users do.</p>
-					<p data-i18n="about.me.paragraph" class="white about-body">I build iOS software for real people: flaky networks, older devices, and the Tuesday when everything goes wrong. That mindset—clarity, testability, and steady refactors—guides how I use SwiftUI, Combine, and concurrency so features stay shippable and maintainable. I keep going deeper into the Apple stack because reliability lives in the details.</p>
+				<div class="col-md-10 col-md-offset-1">
+					<article class="education-card reveal-card" data-reveal>
+						<h3 data-i18n="bootcamp.title" class="timeline-title">Web Development Bootcamp</h3>
+						<span data-i18n="bootcamp.company" class="company">Le Wagon · 2019</span>
+						<p data-i18n="bootcamp-desc">Completed Le Wagon’s intensive full-time bootcamp focused on full-stack application development: Ruby, Ruby on Rails, SQL, JavaScript, REST APIs, Git, and modern web architecture.</p>
+						<p data-i18n="bootcamp-desc.2">Built and deployed collaborative, production-style projects in team-based environments.</p>
+					</article>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div id="fh5co-resume" class="fh5co-bg-dark">
+	<div class="section-divider section-divider--flip" aria-hidden="true"></div>
+
+	<section id="fh5co-work" class="fh5co-bg-dark site-section projects-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline">
-						<li class="timeline-heading text-center animate-box">
-							<div><h3 data-i18n="exp">Experience</h3></div>
-						</li>
-
-						<li class="animate-box timeline-inverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 data-i18n="title.1" class="timeline-title">Mid-level iOS Developer</h3>
-									<span data-i18n="company.1" class="company">MV — 2024 – Present</span>
-								</div>
-								<div class="timeline-body">
-									<p data-i18n="timeline.body.desc.1">Mid-level iOS developer on a whitelabel healthcare app used by multiple hospitals across Brazil. I own ongoing iOS delivery: new features in SwiftUI, gradual UIKit → SwiftUI migration, Core Data, HealthKit, and releases around appointments, exams, and document management.</p>
-								</div>
-							</div>
-						</li>
-
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 data-i18n="title.2" class="timeline-title">Application Development Analyst</h3>
-									<span data-i18n="company.2" class="company">Accenture — 2020 – 2023</span>
-								</div>
-								<div class="timeline-body">
-									<p data-i18n="timeline.body.desc.2">At Accenture I worked across React, Angular, Liferay, jQuery, and Jenkins. I got strong feedback on adaptability, getting up to speed on unfamiliar codebases, and shipping features that actually helped end users. Joining as mid-level gave me room to own work early—which pushed me to grow fast.</p>
-								</div>
-							</div>
-						</li>
-
-						<br>
-
-						<li class="timeline-heading text-center animate-box">
-							<div><h3 data-i18n="skills.section.title">Skills & Background</h3></div>
-						</li>
-
-						<li class="animate-box timeline-inverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 data-i18n="lang-frame" class="timeline-title">Languages & Frameworks</h3>
-								</div>
-								<div class="timeline-body">
-									<p data-i18n="lang-stack.desc">Swift, UIKit, SwiftUI, Combine, Concurrency, HealthKit, MapKit, WidgetKit, OAuth2 (PKCE), Swift Package Manager (SPM).</p>
-								</div>
-							</div>
-						</li>
-
-						<li class="timeline-unverted animate-box">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 data-i18n="arq-patterns" class="timeline-title">Architecture & Patterns</h3>
-								</div>
-								<div class="timeline-body">
-									<p data-i18n="arq-patterns.desc">MVVM, Coordinator, repository pattern, dependency injection, modularization, reusable components, centralized error handling.</p>
-								</div>
-							</div>
-						</li>
-
-						<li class="animate-box timeline-inverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 data-i18n="net-persistance" class="timeline-title">Networking & Persistence</h3>
-								</div>
-								<div class="timeline-body">
-									<p data-i18n="net-stack.desc">REST APIs, GraphQL, URLSession / Codable, Core Data, Keychain, App Group storage, image caching and loading states.</p>
-								</div>
-							</div>
-						</li>
-
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 data-i18n="bootcamp.title" class="timeline-title">Full-Stack Web Development Bootcamp</h3>
-									<span data-i18n="bootcamp.company" class="company">Le Wagon · 2019</span>
-								</div>
-								<div class="timeline-body">
-									<p data-i18n="bootcamp-desc">Le Wagon is a globally recognized coding school that runs intensive, project-driven cohorts in many cities; I completed the full-time web development program. It starts with prepwork (Ruby foundations, Git, and toolchain), then moves quickly through object-oriented Ruby, relational databases and SQL, HTML/CSS/JavaScript, and Ruby on Rails—MVC, routing, authentication, and deploying real apps to production.</p>
-									<p data-i18n="bootcamp-desc.2">The final stretch is a team capstone: we scoped, built, and demoed a full web product from scratch. That blend of product thinking, REST-style APIs, pair work, and code reviews is what made “full stack” tangible—and it set me up to step into larger engineering teams afterward.</p>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-work" class="fh5co-bg-dark">
-		<div class="container">
-			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2 data-i18n="projects">Projects</h2>
-					<p class="projects-github-line"><a href="https://github.com/johngbarreto" class="projects-github-link" data-i18n="projects.github">GitHub profile</a></p>
+					<h2 class="section-heading" data-reveal data-i18n="projects">Projects</h2>
+					<p class="projects-github-line" data-reveal data-reveal-delay="80"><a href="https://github.com/johngbarreto" class="projects-github-link" data-i18n="projects.github">GitHub profile</a></p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-6 text-center col-padding animate-box">
-					<a class="work" style="background-image: url(images/Shot-2.png);">
+
+			<article class="project-card" data-reveal>
+				<div class="project-card__media">
+					<a class="work project-shot" data-tilt style="background-image: url(images/Shot-2.png);" href="#" tabindex="-1" aria-hidden="true">
 						<div class="desc">
 							<h3>AniTimer</h3>
-							<span data-i18n="app.1.stack">UIKit, MVVM, OAuth2 (PKCE), Keychain, App Group + WidgetKit</span>
 						</div>
 					</a>
 				</div>
-				<div class="project-desc col-lg-6">
+				<div class="project-card__body project-desc">
 					<h3 class="customOrangeTitle">AniTimer</h3>
-					<p data-i18n="app.1.desc.0">This app is temporarily not publicly accessible because I am preparing it for App Store submission.</p>
-					<p data-i18n="app.1.desc.1">AniTimer is an iOS app focused on AnimeSchedule's weekly airing timetable. The home experience is organized by day (Mon-Sun), supports week navigation and practical filters, and now keeps a fixed, cleaner zoom behavior for faster browsing. Search and detail flows connect directly with user tracking.</p>
-					<p data-i18n="app.1.desc.2">The app uses a UIKit-first MVVM architecture with centralized networking, OAuth2 (PKCE) authentication, and secure Keychain session storage. Timetable requests include the user's timezone so week boundaries and airing times stay correct across regions.</p>
-					<p data-i18n="app.1.desc.3">My List favorites also power a Home Screen widget that highlights upcoming episodes. Data is synced through shared App Group storage, with consistent loading/error states and optional local notifications for upcoming air times.</p>
+					<div class="tech-badges">
+						<span class="tech-badge">Swift</span>
+						<span class="tech-badge">UIKit</span>
+						<span class="tech-badge">SwiftUI</span>
+						<span class="tech-badge">Firebase</span>
+						<span class="tech-badge">WidgetKit</span>
+						<span class="tech-badge">MVVM-C</span>
+					</div>
+					<p data-i18n="app.1.desc.0">Personal iOS project focused on anime release tracking — currently preparing for App Store submission.</p>
+					<p data-i18n="app.1.desc.1">AniTimer uses the MyAnimeSchedule API to deliver filtering, favorites management, and personalized weekly release schedules so users can browse upcoming anime in a timetable view.</p>
+					<p data-i18n="app.1.desc.2">Implemented local and configurable notification flows aligned with upcoming air dates. Exploring MVVM-C, reusable UI components, and SwiftUI integration within UIKit-based flows.</p>
+					<p data-i18n="app.1.desc.3">WidgetKit integrations and modern iOS capabilities, using the project as a platform for modular architecture and SwiftUI alongside UIKit.</p>
 				</div>
-			</div>
-			<div class="row top-buffer">
-				<div class="col-lg-6 text-center col-padding animate-box">
-					<a href="https://github.com/johngbarreto/Rick-Morty-GraphQL" class="work" style="background-image: url(images/Shot.png);">
+			</article>
+
+			<article class="project-card project-card--reverse" data-reveal data-reveal-delay="80">
+				<div class="project-card__media">
+					<a href="https://github.com/johngbarreto/Rick-Morty-GraphQL" class="work project-shot" data-tilt style="background-image: url(images/Shot.png);">
 						<div class="desc">
 							<h3>Rick &amp; Morty</h3>
-							<span data-i18n="app.2.stack">SwiftUI, GraphQL, Apollo, Combine</span>
 						</div>
 					</a>
 				</div>
-				<div class="project-desc col-lg-6">
+				<div class="project-card__body project-desc">
 					<h3 class="customOrangeTitle">Rick &amp; Morty</h3>
+					<div class="tech-badges">
+						<span class="tech-badge">SwiftUI</span>
+						<span class="tech-badge">GraphQL</span>
+						<span class="tech-badge">Apollo</span>
+						<span class="tech-badge">Combine</span>
+					</div>
 					<p data-i18n="app.2.desc">Explores GraphQL, Combine, and Swift concurrency against the Rick and Morty API.</p>
 					<p data-i18n="app.2.desc.2">A playground for reactive patterns, parallelism, and reusable SwiftUI components with MVVM.</p>
 				</div>
-			</div>
+			</article>
 		</div>
-	</div>
+	</section>
 
-	<div id="fh5co-footer">
+	<footer id="fh5co-footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<p class="footer-line" data-i18n="footer.copyright">© 2025 João Gabriel Barreto · Static site, GitHub Pages</p>
+					<ul class="fh5co-social-icons footer-socials" data-reveal>
+						<li><a href="https://www.linkedin.com/in/joao-gabriel-barreto/" aria-label="LinkedIn"><i class="icon-linkedin2"></i></a></li>
+						<li><a href="https://github.com/johngbarreto" aria-label="GitHub"><i class="icon-github"></i></a></li>
+						<li><a href="mailto:johngabrielbarreto1337@gmail.com" aria-label="E-mail"><i class="icon-envelope"></i></a></li>
+					</ul>
+					<p class="footer-line" data-i18n="footer.copyright" data-reveal data-reveal-delay="80">© 2026 João Gabriel Barreto · Static site, GitHub Pages</p>
 				</div>
 			</div>
 		</div>
+	</footer>
+
 	</div>
 
 	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+		<a href="#" class="js-gotop" aria-label="Back to top"><i class="icon-arrow-up22"></i></a>
 	</div>
 
 	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/jquery.easypiechart.min.js"></script>
+	<script src="js/reveal.js"></script>
+	<script src="js/nav.js"></script>
+	<script src="js/scroll-progress.js"></script>
+	<script src="js/project-tilt.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/lang-switch.js"></script>
 </body>
