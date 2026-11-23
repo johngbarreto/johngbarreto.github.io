@@ -2,6 +2,36 @@
   const translations = {
     en: {
       'hero.subtitle': 'iOS Software Engineer',
+      'nav.index': 'Index',
+      'nav.contact': 'Contact',
+      'sections.aria': 'Sections',
+      'skip': 'Skip to content',
+      'hero.scroll': 'Swipe',
+      'place.full': 'Recife, Pernambuco — Brazil',
+      'location.short': 'Location',
+      'about.a': 'iOS',
+      'about.b': 'Software',
+      'about.c': 'Engineer',
+      'about.now.label': 'Now',
+      'about.now.value': 'dti digital · Banco Inter',
+      'col.0.kicker': 'Now',
+      'col.0.when': 'Sep 2026 — Present',
+      'col.0.body':
+        'iOS on Banco Inter’s Super App with the international account team. SDUI and design systems, with Swift Package Manager, Tuist, and Swift Concurrency. Aligning iOS and Android features across Brazil and US account context, and closing and documenting them.',
+      'col.1.kicker': 'Health',
+      'col.1.when': 'Jul 2024 — Sep 2026',
+      'col.1.body':
+        'White-label hospital apps used across Brazil. Owned legacy Core Data persistence and sync behind the top Crashlytics stability signal, and built a modular attendance and exam history in SwiftUI inside a UIKit app, with offline updates on a high-traffic screen. In-app PDF and image preview, silent push, tier-aware features, and Fastlane releases through the App Store.',
+      'col.1.stat': 'Reliability',
+      'col.1.stat2.label': 'Network',
+      'col.2.kicker': 'Web',
+      'col.2.when': 'Nov 2020 — Mar 2023',
+      'col.2.body':
+        'Large-scale React and Angular applications for Claro and DTVGO: feature work, maintenance, and user experience. Moved across consulting projects and business domains, picking up unfamiliar systems quickly. Supported high-traffic platforms during live events, including streaming around the World Cup.',
+      'contact.heading': "Let's talk",
+      'contact.note': 'iOS roles, collaborations, and a straight conversation.',
+      'link.profile': 'Profile',
+      'link.repo': 'Repository',
       'nav.about': 'About',
       'nav.experience': 'Experience',
       'nav.education': 'Education',
@@ -12,24 +42,32 @@
       'email.label': 'Email:',
       'location': 'Location:',
       'about.me.paragraph':
-        'iOS Software Engineer with 4 years of experience owning high-impact features throughout the development lifecycle. I contribute to modular architectures, reusable UI systems, offline-aware experiences, and performance-focused mobile development within white-label applications used by thousands of users.',
+        'iOS Software Engineer with 5 years of experience owning high-impact features throughout the development lifecycle. At dti digital, iOS on Banco Inter’s Super App with the international account team — SDUI, design systems, SPM and Tuist with Swift Concurrency — aligning iOS and Android across Brazil and US account context. Previously, at MV, shipped healthcare white-label apps used across hospitals throughout Brazil.',
       'exp': 'Experience',
+      'title.0': 'iOS Software Engineer',
+      'company.0': 'dti digital — Sep 2026 – Present',
+      'timeline.body.desc.0':
+        'iOS engineer on Banco Inter’s Super App with the international account team. SDUI and design systems in a native UIKit and SwiftUI codebase.',
+      'timeline.body.desc.0b':
+        'Swift Package Manager and Tuist, using Swift Concurrency. Aligning iOS and Android features across Brazil and US account context, and closing and documenting features.',
       'title.1': 'iOS Software Engineer',
-      'company.1': 'MV — 2024 – Present',
+      'company.1': 'MV — Jul 2024 – Sep 2026',
       'timeline.body.desc.1':
-        'Led Core Data persistence and synchronization improvements using Crashlytics monitoring, improving app reliability by 20% across multiple white-label hospital releases. Built a modular attendance and exam history feature in SwiftUI, reducing network usage by 30% and increasing offline availability on high-traffic screens.',
+        'White-label hospital apps used across Brazil. Owned legacy Core Data persistence and sync behind the top Crashlytics stability signal, and built a modular attendance and exam history in SwiftUI inside a UIKit app, with offline updates, filtering, and fewer network calls on a high-traffic screen.',
       'timeline.body.desc.1b':
-        'Delivered in-app document preview for PDFs and images, implemented silent push background refresh for account updates, and developed tier-aware feature availability aligned with business logic. Built invoice and income tax screens as isolated SPM modules with reusable UI and shared design system patterns. Experience with App Store Connect, certificates, and App Store submissions.',
-      'title.2': 'Software Engineer',
-      'company.2': 'Accenture — 2020 – 2023',
+        'In-app PDF and image preview, Firebase silent push for account updates, and tier-aware features aligned with business rules. Invoice and income-tax screens as isolated Swift packages with shared UI. Ruby scripts for Xcode targets, and a Fastlane pipeline through certificates, provisioning, and App Store submission.',
+      'title.2': 'Frontend Software Engineer',
+      'company.2': 'Accenture — Nov 2020 – Mar 2023',
       'timeline.body.desc.2':
-        'Contributed to large-scale web and iOS applications for major Brazilian clients including Claro and DTVGO, supporting feature development, maintenance, and UX improvements across fast-paced consulting engagements.',
+        'Large-scale React and Angular applications for Claro and DTVGO: feature work, maintenance, and user experience. Moved across consulting projects and business domains, picking up unfamiliar systems quickly and delivering under tight deadlines.',
       'timeline.body.desc.2b':
-        'Supported high-traffic digital platform initiatives during major live events, including streaming-related experiences during the World Cup period. Recognized for strong autonomy, fast onboarding into unfamiliar systems, and consistent delivery in agile, cross-functional teams.',
+        'Supported high-traffic platforms during live events, including streaming around the World Cup, with cross-functional agile teams on frontend that had to stay maintainable as the product grew.',
       'skills.section.title': 'Skills',
       'education.section.title': 'Education',
       'lang-frame': 'Languages & Frameworks',
       'lang-stack.desc': 'Swift, Objective-C, SwiftUI, UIKit.',
+      'web-stack': 'Web',
+      'web-stack.desc': 'React and Angular, from large-scale client work at Accenture.',
       'arq-patterns': 'Architecture & Patterns',
       'arq-patterns.desc':
         'MVVM, MVVM-C, VIPER, Clean Architecture, modular architecture, design systems.',
@@ -53,7 +91,29 @@
       'bootcamp-desc.2':
         'Built and deployed collaborative, production-style projects in team-based environments.',
       'projects': 'Projects',
+      'projects.professional': 'Professional',
+      'projects.personal': 'Personal',
       'projects.github': 'GitHub profile',
+      'pro.1.title': 'Healthcare Whitelabel Apps',
+      'pro.1.company': 'MV · Jul 2024 – Sep 2026',
+      'pro.1.hover':
+        'Patient apps across hospital brands — Core Data sync, SwiftUI modules, and App Store releases.',
+      'pro.1.desc.0':
+        'White-label hospital patient apps used by thousands of users across multiple branded releases — modular architecture, offline-aware flows, and App Store delivery.',
+      'pro.1.desc.1':
+        'Owned legacy Core Data persistence and sync behind the top Crashlytics stability signal. Built a modular attendance and exam history in SwiftUI inside a UIKit app, with offline updates and fewer network calls on a high-traffic screen.',
+      'pro.1.desc.2':
+        'Delivered in-app document preview, silent push background refresh, tier-aware feature gating, and invoice/income tax screens as isolated SPM modules with shared design system patterns.',
+      'pro.2.title': 'Claro & DTVGO',
+      'pro.2.company': 'Accenture · Nov 2020 – Mar 2023',
+      'pro.2.hover':
+        'React and Angular for Claro and DTVGO, including live-event traffic.',
+      'pro.2.desc.0':
+        'Large-scale web applications for Claro and DTVGO. Feature development, maintenance, and UI improvements in React and Angular, across fast-paced consulting teams.',
+      'pro.2.desc.1':
+        'High-traffic digital experiences during major events, including streaming platforms in the World Cup period. Fast onboarding and consistent delivery across client environments.',
+      'app.1.hover':
+        'Weekly anime schedules, favorites, notifications, and home-screen widgets.',
       'app.1.desc.0':
         'Personal iOS project focused on anime release tracking — currently preparing for App Store submission.',
       'app.1.desc.1':
@@ -63,16 +123,48 @@
       'app.1.desc.3':
         'WidgetKit integrations and modern iOS capabilities, using the project as a platform for modular architecture and SwiftUI alongside UIKit.',
       'app.2.stack': 'SwiftUI, GraphQL, Apollo, Combine',
+      'app.2.hover':
+        'Apollo iOS client: typed GraphQL queries, pagination, and search.',
       'app.2.desc':
-        'Explores GraphQL, Combine, and Swift concurrency against the Rick and Morty API.',
+        'SwiftUI app that consumes a GraphQL API with Apollo iOS. The schema comes from introspection, queries live in GraphQL documents, and generated types ship in an SPM module.',
       'app.2.desc.2':
-        'A playground for reactive patterns, parallelism, and reusable SwiftUI components with MVVM.',
+        'Character and location lists with filtered search, debounced Combine, and paged results.',
       'footer.copyright':
         '© 2026 João Gabriel Barreto · Static site, GitHub Pages',
       'lang.toggle.aria': 'Toggle language between Portuguese and English',
     },
     pt: {
       'hero.subtitle': 'Engenheiro de Software iOS',
+      'nav.index': 'Início',
+      'nav.contact': 'Contato',
+      'sections.aria': 'Seções',
+      'skip': 'Pular para o conteúdo',
+      'hero.scroll': 'Deslize',
+      'place.full': 'Recife, Pernambuco — Brasil',
+      'location.short': 'Local',
+      'about.a': 'Engenheiro',
+      'about.b': 'de Software',
+      'about.c': 'iOS',
+      'about.now.label': 'Agora',
+      'about.now.value': 'dti digital · Banco Inter',
+      'col.0.kicker': 'Agora',
+      'col.0.when': 'Set 2026 — Presente',
+      'col.0.body':
+        'iOS no Super App do Banco Inter, com o time de conta internacional. SDUI e design systems, com Swift Package Manager, Tuist e Swift Concurrency. Alinhamento de features iOS e Android entre os contextos de conta Brasil e EUA, fechando e documentando as entregas.',
+      'col.1.kicker': 'Saúde',
+      'col.1.when': 'Jul 2024 — Set 2026',
+      'col.1.body':
+        'Apps whitelabel de hospitais por todo o Brasil. Assumi a persistência e a sincronização legadas em Core Data por trás do principal sinal de instabilidade no Crashlytics, e construí um histórico modular de atendimentos e exames em SwiftUI dentro de um app UIKit, com atualização offline numa tela de alto tráfego. Pré-visualização de PDFs e imagens, silent push, features por nível de conta e releases no Fastlane até a App Store.',
+      'col.1.stat': 'Confiabilidade',
+      'col.1.stat2.label': 'Rede',
+      'col.2.kicker': 'Web',
+      'col.2.when': 'Nov 2020 — Mar 2023',
+      'col.2.body':
+        'Aplicações de grande escala em React e Angular para Claro e DTVGO: funcionalidades, manutenção e experiência do usuário. Atuei em vários projetos de consultoria e domínios, entrando rápido em sistemas desconhecidos. Apoiei plataformas de alto tráfego em eventos ao vivo, incluindo streaming na Copa do Mundo.',
+      'contact.heading': 'Vamos conversar',
+      'contact.note': 'Vagas iOS, colaborações e uma conversa direta.',
+      'link.profile': 'Perfil',
+      'link.repo': 'Repositório',
       'nav.about': 'Sobre',
       'nav.experience': 'Experiência',
       'nav.education': 'Formação',
@@ -83,24 +175,32 @@
       'email.label': 'E-mail:',
       'location': 'Localização:',
       'about.me.paragraph':
-        'Engenheiro de Software iOS com 4 anos de experiência liderando features de alto impacto em todo o ciclo de desenvolvimento. Atuo em arquiteturas modulares, sistemas de UI reutilizáveis, experiências offline-first e performance em apps whitelabel usados por milhares de usuários.',
+        'Engenheiro de Software iOS com 5 anos de experiência liderando features de alto impacto em todo o ciclo de desenvolvimento. Na dti digital, atuo no Super App do Banco Inter com o time de conta internacional — SDUI, design systems, SPM e Tuist com Swift Concurrency — alinhando features iOS e Android entre os contextos de conta Brasil e EUA. Antes, na MV, entreguei apps whitelabel de saúde usados em hospitais por todo o Brasil.',
       'exp': 'Experiência',
+      'title.0': 'Engenheiro de Software iOS',
+      'company.0': 'dti digital — Set 2026 – Presente',
+      'timeline.body.desc.0':
+        'Engenheiro iOS no Super App do Banco Inter, com o time de conta internacional. SDUI e design systems em um app nativo com UIKit e SwiftUI.',
+      'timeline.body.desc.0b':
+        'Swift Package Manager e Tuist, com Swift Concurrency. Alinhamento de features iOS e Android entre os contextos de conta Brasil e EUA, fechando e documentando as entregas.',
       'title.1': 'Engenheiro de Software iOS',
-      'company.1': 'MV — 2024 – Presente',
+      'company.1': 'MV — Jul 2024 – Set 2026',
       'timeline.body.desc.1':
-        'Liderei melhorias de persistência e sincronização com Core Data e monitoramento via Crashlytics, aumentando a confiabilidade do app em 20% em releases whitelabel para hospitais. Desenvolvi módulo de presença e histórico de exames em SwiftUI, reduzindo uso de rede em 30% e melhorando disponibilidade offline em telas de alto tráfego.',
+        'Apps whitelabel de hospitais por todo o Brasil. Assumi a persistência e a sincronização legadas em Core Data por trás do principal sinal de instabilidade no Crashlytics, e construí um histórico modular de atendimentos e exames em SwiftUI dentro de um app UIKit, com atualização offline, filtro e menos chamadas de rede numa tela de alto tráfego.',
       'timeline.body.desc.1b':
-        'Entreguei preview in-app de PDFs e imagens, refresh silencioso via push para atualizações de conta e regras de features por tier alinhadas à lógica de negócio. Construí telas de fatura e imposto de renda como SPMs isolados com UI reutilizável e design system compartilhado. Experiência com App Store Connect, certificados e submissões à App Store.',
-      'title.2': 'Engenheiro de Software',
-      'company.2': 'Accenture — 2020 – 2023',
+        'Pré-visualização de PDFs e imagens, silent push com Firebase para gestão de conta e features por nível de conta. Telas de faturas e imposto de renda como Swift Packages com UI compartilhada. Scripts em Ruby para targets no Xcode e pipeline no Fastlane até certificados, provisioning e submissão à App Store.',
+      'title.2': 'Engenheiro de Software Frontend',
+      'company.2': 'Accenture — Nov 2020 – Mar 2023',
       'timeline.body.desc.2':
-        'Atuei em aplicações web e iOS de grande escala para clientes como Claro e DTVGO, com desenvolvimento de features, manutenção e melhorias de UX em ambientes de consultoria dinâmicos.',
+        'Aplicações de grande escala em React e Angular para Claro e DTVGO: funcionalidades, manutenção e experiência do usuário. Atuei em vários projetos de consultoria e domínios, entrando rápido em sistemas desconhecidos e entregando com prazo apertado.',
       'timeline.body.desc.2b':
-        'Suporte a plataformas digitais de alto tráfego em eventos ao vivo, incluindo experiências de streaming na Copa do Mundo. Reconhecido por autonomia, onboarding rápido em sistemas desconhecidos e entrega consistente em times ágeis e multidisciplinares.',
+        'Apoiei plataformas de alto tráfego em eventos ao vivo, incluindo streaming na Copa do Mundo, com times ágeis em front-end que precisava continuar sustentável conforme o produto crescia.',
       'skills.section.title': 'Skills',
       'education.section.title': 'Formação',
       'lang-frame': 'Linguagens e frameworks',
       'lang-stack.desc': 'Swift, Objective-C, SwiftUI, UIKit.',
+      'web-stack': 'Web',
+      'web-stack.desc': 'React e Angular, em aplicações de grande escala na Accenture.',
       'arq-patterns': 'Arquitetura e padrões',
       'arq-patterns.desc':
         'MVVM, MVVM-C, VIPER, Clean Architecture, arquitetura modular, design systems.',
@@ -124,7 +224,29 @@
       'bootcamp-desc.2':
         'Projetos colaborativos em estilo produção, construídos e publicados em ambiente de equipe.',
       'projects': 'Projetos',
+      'projects.professional': 'Profissionais',
+      'projects.personal': 'Pessoais',
       'projects.github': 'Perfil no GitHub',
+      'pro.1.title': 'Apps Whitelabel de Saúde',
+      'pro.1.company': 'MV · Jul 2024 – Set 2026',
+      'pro.1.hover':
+        'Apps de pacientes em várias marcas hospitalares — sync com Core Data, módulos SwiftUI e releases na App Store.',
+      'pro.1.desc.0':
+        'Apps whitelabel para pacientes hospitalares usados por milhares de usuários em múltiplos releases — arquitetura modular, fluxos offline-first e entrega na App Store.',
+      'pro.1.desc.1':
+        'Assumi a persistência e a sincronização legadas em Core Data por trás do principal sinal de instabilidade no Crashlytics. Construí um histórico modular de atendimentos e exames em SwiftUI dentro de um app UIKit, com atualização offline e menos chamadas de rede numa tela de alto tráfego.',
+      'pro.1.desc.2':
+        'Entreguei preview in-app de documentos, refresh silencioso via push, regras de features por tier e telas de fatura e imposto de renda como SPMs isolados com design system compartilhado.',
+      'pro.2.title': 'Claro & DTVGO',
+      'pro.2.company': 'Accenture · Nov 2020 – Mar 2023',
+      'pro.2.hover':
+        'React e Angular na Claro e na DTVGO, incluindo tráfego de eventos ao vivo.',
+      'pro.2.desc.0':
+        'Aplicações web de grande escala para Claro e DTVGO. Features, manutenção e melhorias de UI em React e Angular, em times de consultoria acelerada.',
+      'pro.2.desc.1':
+        'Experiências digitais de alto tráfego em grandes eventos, incluindo streaming na Copa do Mundo. Onboarding rápido e entrega consistente em ambientes de clientes diferentes.',
+      'app.1.hover':
+        'Grade semanal de animes, favoritos, notificações e widgets na tela inicial.',
       'app.1.desc.0':
         'Projeto pessoal iOS de acompanhamento de lançamentos de anime — em preparação para a App Store.',
       'app.1.desc.1':
@@ -134,10 +256,12 @@
       'app.1.desc.3':
         'Integrações com WidgetKit e recursos modernos do iOS, usando o projeto como laboratório de arquitetura modular e SwiftUI com UIKit.',
       'app.2.stack': 'SwiftUI, GraphQL, Apollo, Combine',
+      'app.2.hover':
+        'Cliente Apollo iOS: queries GraphQL tipadas, paginação e busca.',
       'app.2.desc':
-        'Explora GraphQL, Combine e Swift Concurrency com a API de Rick and Morty.',
+        'App SwiftUI que consome uma API GraphQL com Apollo iOS. O schema vem de introspection, as queries ficam em documentos GraphQL e os tipos gerados entram num módulo SPM.',
       'app.2.desc.2':
-        'Laboratório de padrões reativos, paralelismo e componentes SwiftUI reutilizáveis com MVVM.',
+        'Listas de personagens e locais com busca filtrada, Combine com debounce e resultados paginados.',
       'footer.copyright':
         '© 2026 João Gabriel Barreto · Site estático, GitHub Pages',
       'lang.toggle.aria': 'Alternar idioma entre português e inglês',
@@ -166,25 +290,32 @@
     localStorage.setItem('siteLang', lang);
   }
 
-  const toggles = [
-    document.getElementById('lang-toggle'),
-    document.getElementById('lang-toggle-nav'),
-  ].filter(Boolean);
-  if (!toggles.length) return;
+  window.siteI18n = {
+    t(key) {
+      const lang = localStorage.getItem('siteLang') || 'en';
+      return (translations[lang] && translations[lang][key]) || '';
+    },
+  };
 
-  function setLang(lang) {
-    toggles.forEach((t) => {
-      t.checked = lang === 'en';
+  function setPressed(lang) {
+    document.querySelectorAll('[data-set-lang]').forEach((btn) => {
+      const on = btn.getAttribute('data-set-lang') === lang;
+      btn.classList.toggle('is-on', on);
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
-    applyLang(lang);
   }
 
-  const saved = localStorage.getItem('siteLang') || 'en';
-  setLang(saved);
+  function setLang(lang) {
+    setPressed(lang);
+    applyLang(lang);
+    document.dispatchEvent(new CustomEvent('site-lang'));
+  }
 
-  toggles.forEach((toggle) => {
-    toggle.addEventListener('change', () => {
-      setLang(toggle.checked ? 'en' : 'pt');
+  setLang(localStorage.getItem('siteLang') || 'en');
+
+  document.querySelectorAll('[data-set-lang]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      setLang(btn.getAttribute('data-set-lang'));
     });
   });
 })();
